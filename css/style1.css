@@ -1,0 +1,37 @@
+.image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.397)) ,url(../images/top-view-external-hard-drives-arrangement.jpg);
+    background-size: cover;
+    height: 700px;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left{
+    padding-left: 50px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.left img{
+    height: 40px;
+}
+.right{
+    margin-right: 50px;
+    margin-top: 20px;
+    
+    
+}
+.right span{
+    border-bottom: 2px solid yellow;
+}
+.right a{
+    text-decoration: none;
+    justify-content: space-around;
+    margin-right: 15px;
+    color:black;   
+    font-family: ProximaNova,Arial,Sans-serif;
+}
+.right a:hover{
+    border-bottom: 2px solid yellow;
+}
