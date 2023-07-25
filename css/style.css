@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Teko:wght@300&display=swap');
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Teko', sans-serif; */
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Teko', sans-serif; */
+
+
+.main{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.397)) ,url(../images/top-view-external-hard-drives-arrangement.jpg);
+    background-size: cover;
+    height: 700px;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left{
+    padding-left: 50px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.right{
+    margin-right: 50px;
+    margin-top: 20px;
+    
+    
+}
+.right span{
+    border-bottom: 2px solid yellow;
+}
+.right a{
+    text-decoration: none;
+    justify-content: space-around;
+    margin-right: 15px;
+    color: white;   
+    font-family: 'Quicksand', sans-serif;
+}
+.right a:hover{
+    border-bottom: 2px solid yellow;
+}
+
+.label h1{
+    text-align: center;
+    align-items:center;
+    padding-top: 150px;
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.signup{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.signup a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white; 
+    padding: 8px;
+    border-radius: 3px;   
+}
+.signup a:hover{
+    background-color:black;
+}
+.login{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.login a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: yellow;
+}
+/* .shopnow a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white; 
+    padding: 8px;
+    border-radius: 3px; 
+} */
+/* .buttons{
+    display: flex;
+justify-content: center;
+    gap: 20px;
+} */
