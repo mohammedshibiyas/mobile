@@ -10,6 +10,9 @@ font-family: 'Teko', sans-serif; */
     background-size: cover;
     height: 700px;
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +24,7 @@ font-family: 'Teko', sans-serif; */
     margin-top: 20px;
 }
 .left img{
-    height: 40px;
+    height: 30px;
 }
 .right{
     margin-right: 50px;
@@ -72,6 +75,7 @@ font-family: 'Teko', sans-serif; */
     text-align: center;
     padding-top: 20px;
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .login a{
     text-decoration: none;
@@ -95,6 +99,7 @@ justify-content: center;
 /* //////footer///// */
 .footer{
     padding-top: 100px;
+    font-family:'Josefin Sans', sans-serif;
 }
 .upper{
     display: flex;
@@ -102,4 +107,40 @@ justify-content: center;
     gap: 50px;
     padding-left: 30px;
     justify-content: space-evenly;
+}
+.recomend{
+    margin-left: 30px;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-right: 120px;
+    margin-top: 40px;
+    
+}
+.middle p{
+    font-size: small;
+}
+.chatrow1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.chatrow1 span{
+    margin-top: 5px;
+}
+.chatsupport{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:5px;
+    padding-left: 30px;
+    width: 120px;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+.chatsupport:hover{
+    background-color: black;
+    color: white;
 }
